@@ -1,0 +1,38 @@
+{
+	"name": "pipe_01",
+	"properties": {
+		"activities": [
+			{
+				"name": "Time to Run 01",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 3
+				}
+			},
+			{
+				"name": "Time to Run 02",
+				"type": "Wait",
+				"dependsOn": [
+					{
+						"activity": "Time to Run 01",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 4
+				}
+			}
+		],
+		"folder": {
+			"name": "adf_01_pipeline01"
+		},
+		"annotations": [],
+		"lastPublishTime": "2022-12-18T13:25:49Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

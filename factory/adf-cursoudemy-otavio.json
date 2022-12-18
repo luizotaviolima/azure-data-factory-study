@@ -1,0 +1,9 @@
+{
+	"name": "adf-cursoudemy-otavio",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "41f3c2ef-0a47-4bad-873d-aee72311078c",
+		"tenantId": "c0ae6eb4-e445-4f76-8106-3fc4dd9baf4c"
+	}
+}
