@@ -1,0 +1,20 @@
+{
+	"name": "pl_github",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait Git",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 2
+				}
+			}
+		],
+		"folder": {
+			"name": "adf_04_git"
+		},
+		"annotations": []
+	}
+}
